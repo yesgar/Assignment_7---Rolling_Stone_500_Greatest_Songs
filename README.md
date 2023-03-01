@@ -36,9 +36,14 @@ DISC-TRACK: (Data Type = str) This column signifies the disc-track of the songs 
 DETAILS: (Data Type = str) This column signifies the details of the songs within the original websites database in Rolling Stone's 500 Greatest Songs (including track classification, audio, lyrics, etc.)  
 
 **Potential Data Issues**:  
-In terms of the Rolling Stone - 500 Greatest Songs data, there may be issues of sources of bias in the orginial collection considering it was derived from a single individuals educational website. Furthermore, there seems to be a few gaps regarding the datapoints attribute of Genre. Some points that the orignial author of the music database, Dave Tompkins, lists are stated exactly as the following:  
+In terms of the Rolling Stone - 500 Greatest Songs data, there may be issues of sources of bias in the orginial collection considering it was derived from a single individuals educational website. Furthermore, there seems to be a few gaps regarding the datapoints attribute of Genre as well as no clear indication of when the data was made. Some points that the orignial author of the music database, Dave Tompkins, lists are stated exactly as the following:  
 - There are many typos and errors -- especially in the CapitAliZation in song names  
-- The year and genre data is currently a bit of a mess, but I'm working on it
+- The year and genre data is currently a bit of a mess, but I'm working on it  
+Additionally, dataset being uploaded to data.world resulted in warning messages including:  
+- 1 column detected with constant values (which is expected due to the originial data formatting)
+- 1 suspicious row count detected  
+- 3 numeric values outside standard deviation detected  
+- 5 text values outside standard deviation detected  
 
 **Analysis**:  
 Through this project I am demonstrating which artist and genre reoccurred the most in Rolling Stone's 500 Greatest Songs in order to get a better idea of which artists and genres Rolling Stone identifies as "the greatest" in comparison to other large music led magazine companies such as Billboard. By finding similarities and differences between a range of major music rating companies, there can be a collective consensus of what can be determined as the "greatest" music considering that this is an area that can be greatly subjective. Additionally, through bivariate analysis, being able to determine if there is a relation between TIME/BPM and BPM/YEAR between the songs in this data may make for insights that, although weren't my main focus in this project, may be able to provide any interesting correlations since (for example) in music, tempo refers to a specific number of beats that occur within a minute and this measure of time states the speed at which music is played in beats per minute or BPM.
