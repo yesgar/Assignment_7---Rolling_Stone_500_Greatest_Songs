@@ -38,7 +38,8 @@ DETAILS: (Data Type = str) This column signifies the details of the songs within
 **Potential Data Issues**:  
 In terms of the Rolling Stone - 500 Greatest Songs data, there may be issues of sources of bias in the orginial collection considering it was derived from a single individuals educational website. Furthermore, there seems to be a few gaps regarding the datapoints attribute of Genre as well as no clear indication of when the data was made. Some points that the orignial author of the music database, Dave Tompkins, lists are stated exactly as the following:  
 - There are many typos and errors -- especially in the CapitAliZation in song names  
-- The year and genre data is currently a bit of a mess, but I'm working on it
+- The year and genre data is currently a bit of a mess, but I'm working on it  
+
 Additionally, dataset being uploaded to data.world resulted in warning messages including:  
 - 1 column detected with constant values (which is expected due to the originial data formatting)
 - 1 suspicious row count detected  
